@@ -18,6 +18,9 @@ func TestBasicExampleFromDocsIsValid(t *testing.T) {
       "password": "supersecret",
 
       "node": "my-proxmox",
+	  "efidisk": "local-lvm",
+	  "machine": "q35",
+	  "bios": "ovmf",
       "network_adapters": [
         {
           "bridge": "vmbr0"
